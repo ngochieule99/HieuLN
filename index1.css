@@ -1,0 +1,254 @@
+
+*{margin: 0px; padding: 0px;box-sizing: border-box;font-family: tahoma; word-break: break-word;}
+ul li{list-style-type: none;}
+a{text-decoration: none;}
+.clear{clear: both;}
+
+.total{
+	width: 1350px;
+	margin: 0px auto;
+	text-align: center;
+}
+/*logo*/
+.logo{
+	width: 1350px;
+	height: 150px;
+	float: left;
+}
+.logo>img{
+	float: left;
+}
+/*menu*/
+.menu{
+	height: 40px;
+	width: 1350px;
+}
+.menu ul{
+	margin: 0px;
+   	padding: 0px;
+}
+.menu ul li{
+    display: inline-block;
+    padding: 20px;
+    font-size: 18px;
+    font-weight: bold;
+    margin-top: 0px;
+    float: right;
+    width: 157px;
+    height: 70px;
+    background-color:#a4d59e;
+    position: relative;
+}
+.menu ul li a{
+	color: #0f0f0e;
+}
+.menu li:hover{
+	background: #aec575;
+}
+.menu .sub-menu{
+	display: none;
+	position: absolute;
+	top: 70px;
+	right: 0px;
+    z-index: 1000;
+    background: #a4d59e;
+}
+.sub-menu1{
+	display: none;
+	position: absolute;
+	left: 157px;
+	top: 0px;
+}
+.sub-menu li{
+	padding: 7px;
+}
+.menu .sub-menu li a{
+    color: #0f0f0e;
+}
+/*Phaanf Banner */
+.banner {
+	height: 400px;
+	width: 1350px;
+	float: left;
+	position: relative;
+}
+.banner #quaylai{
+    position: absolute;
+    top: 188px;
+    left: 7px;
+}
+.banner #tienlen{
+    position: absolute;
+    top: 188px;
+    right: 7px;
+}
+
+
+/*Noi dungn*/
+.noidung{
+	width: 1050px;
+	min-height: 800px;
+	float: left;
+	margin-left: 150px;
+	margin-top: 25px;
+}
+.left {
+    width: 250px;
+    min-height: 1393px;
+    float: left;
+    background: #cef2e2;
+}
+.left h3{
+	text-align: center;
+	padding: 5px;
+	background-color:  #011f3a;
+	color: #FFF;
+	padding-bottom: 10px;
+}
+.left .anh{
+    width: 234px;
+    height: 120px;
+    float: left;
+    position: relative;
+    background: #bebebe;
+    margin-left: 9px;
+    margin-top: 20px;
+}
+.left .anh img{
+	float: left;
+}
+.left .mota{
+	position: absolute;
+	top: 15px;
+	right: 10px;
+}
+/*Phần nội dung giữa*/
+
+.noidung .center{
+	float: left;
+	width: 800px;
+	min-height: 800px;
+	background: #cef2e2;
+}
+.center .tieude{
+	text-align: center;
+	padding: 5px;
+	background-color:  #011f3a;
+	color: #FFF;
+	border-left: 1px solid #FFF;
+	height: 38px;
+}
+.footer {
+	width: 1350px;
+	min-height: 400px;
+	clear: left;
+	background-color: #F2F3F4;
+}
+.main2 {
+	background-color: black;
+	float: left;
+	width: 400px;
+}
+.main3 {
+	background-color: red;
+	float: left;
+	width: 200px;
+}
+
+table {
+	margin-top: 20px;
+	margin-left: 20px;
+	width: 210px;
+	height: 220px;
+}
+table td {
+	text-align: left;
+	vertical-align: top;
+}
+#total {
+	width: 780px;
+	height: 655px;
+	position: relative;
+	margin-left: 8px;
+}
+
+#nd1 {
+	margin-right: 268px;
+	margin-top: 20px;
+}
+#total #nd2 {
+	margin-left: 520px;
+	margin-top: -303px;
+	position: absolute;
+}
+#total #nd3 {
+	margin-left: 270px;
+	position: absolute;
+	margin-top: 15px;
+}
+#total #nd4 {
+	margin-left: 8px;
+	margin-top: 15px;
+	position: absolute;
+}
+/*Phần footer*/
+.footer{
+	width: 1350px;
+	min-height: 500px;
+	color: black;
+	background: #96a986;
+}
+.footer .lydo{
+	width: 1350px;
+	margin-top: 10px;
+}
+.footer .lydo #chu{
+	text-align: center;
+	padding-top: 15px;
+	font-size: 25px;
+}
+.footer .lydo .dienda{
+	width: 1350px;
+	height: 40px;
+	margin-left: -100px;
+	position: relative;
+}
+.footer .lydo .dienda>img{
+	width: 25px;
+	position: absolute;
+	top: 10px;
+	left: 590px;
+}
+.footer .lydo .dienda>h4{
+	top: 10px;
+    font-size: 20px;
+    position: absolute;
+    left: 640px;
+}
+.footer .tour{
+	margin-top: 24px;
+    border-top: 1px solid gray;
+    width: 1350px;
+    position: relative;
+}
+.footer .tour .thongtin{
+    position: absolute;
+    float: left;
+    text-align: left;
+    left: 100px;
+    font-size: 20px;
+    padding-top: 55px;
+}
+.footer .tour .thongtin>p{
+	font-weight: bold;
+}
+.footer .tour .bieutuong{
+	position: absolute;
+    left: 800px;
+    padding-top: 145px;
+}
+.footer .tour .bieutuong>img{
+	width: 100px;
+	margin-left: 26px;
+	height: 100px;
+}

@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Hà Nội</title>
+	<link rel="stylesheet" type="text/css" href="templates.css">
+	<script src="jquery.js"></script>
+    <script src="main.js"></script>
+
+</head>
+<body>
+	<div class="total">
+		<!--Logo-->
+		<div class="logo">
+			<img src="img/logo1.jpg" width="250px" height="150px">
+			<img src="img/song.jpg" width="1100px" height="150px">
+		</div>
+		<!--Menu-->
+		<div class="menu">
+			<ul class="nav">
+				<li><a href="">Tin tức</li>
+<li><a href="">Vé Máy Bay</li>
+<li><a href="">Reviews</li>
+<li><a href="">Lịch Trình
+	<ul class="sub-menu">
+		<li><a href="templates.html" target="_blank">Hà Nội</a></li>
+		<li><a href="">Mộc Châu</a></li>
+		<li><a href="">Sapa</a></li>
+		<li><a href="">Ninh Bình</a></li>
+	</ul>
+</li>
+<li><a href="">Ẩm Thực
+	<ul class="sub-menu">
+		<li><a href="">Việt Nam</a>
+			<ul class="sub-menu1">
+				<li><a href="">Hà Nội</a></li>
+				<li><a href="">Sài Gòn</a></li>
+				<li><a href="">Nha Trang</a></li>
+			</ul>
+		</li>
+		<li><a href="">Truyền Thống</a></li>
+	</ul>
+</li>
+<li><a href="">Tuor
+	<ul class="sub-menu">
+		<li><a href="">Trong Nước
+			<ul class="sub-menu1">
+				<li><a href="">Hà Nội</li>
+				<li><a href="">Lào Cai-Sapa</li>
+				<li><a href="">Nha trang</li>
+				<li><a href="">Tam Đảo</li>
+				<li><a href="">Đà Nẵng</li>
+			</ul>
+		</li>
+		<li><a href="">Ngoài Nước
+			<ul class="sub-menu1">
+				<li><a href="">Bangkok</li>
+				<li><a href="">Paris</li>
+				<li><a href="">Tokio</li>
+			</ul>
+		</li>
+	</ul>
+</li>
+<li><a href="">Trang Chủ</a></li>
+<li style="background-color: gray;width: 250px;"></li>
+			</ul>
+		
+		</div>
+		<!--Banner-->
+		<div class="banner">
+			<img src="img/images/danang.gif">
+		</div>
+			
+            <!--Nội dung giữa-->
+           <div id="noidung">
+           		<h1>Tour du lịch Hà Nội</h1>
+           		<div id="tour1">
+           			<p>Nghĩ đến Hà Nội, nghĩ đến hoa sữa, đến đặc sản cốm Làng Vòng, đến những con đường nhỏ trong lòng phố cổ, không khí man mác chiều thu khi dạo quanh Hồ Gươm. Từ Hà Nội, rất dễ dàng để có một lựa chọn đến các địa danh du lịch nổi tiếng trong nước và nước ngoài. Hệ thống giao thông thuận lợi với đường bộ, đường sắt, đường hàng không.</p><br><br>
+           		</div>
+           		<div id="tour2">
+           			<table cellspacing="10">
+						<tr>
+							<td><img src="img/langnghe.jpg" width="200px" height="200px"></td>
+							<td valign="top" align="left" width="650px"><p style="color: blue">Khám phá các làng nghề Hà Nội</p><br><br>
+<p>Lịch trình: Hà Nội - làng gốm Bát Tràng, Hà Nội - làng tranh Đông Hồ, Hà Nội - làng lụa Vạn Phúc, Hà Nội - Chùa Thầy</p><br><br>
+<p>Hà Nội là nơi “hội tụ-giao lưu-kết tinh-tỏa sáng” của làng nghề Việt Nam. Hà Nội có nhiều làng nghề, phố nghề với những sản phẩm, nghệ nhân nổi...</p><br>
+<p style="float: right;"><a href="">...Xem Thêm</a></p></td>
+							<td>
+								<div class="form-order">
+									<span>Giá Từ</span><br>
+									<strong>650.000</strong><br>
+									
+									
+										<div class="popup">
+										<button class="btn" type="button" onclick="showForm()">Đặt tour</button>
+                                       <div class="modal">
+                                       	   <div class="modal-content">
+                                       	   	<span class="close" onclick="closeForm()"> X </span>
+                                       	   	  <div class="modal-header">
+                                       	   	  	
+                                       	   	  </div>
+                                       	   	  <div class="modal-body">
+                                       	   	  	<div id="total">
+		<form>
+			<fieldset>
+				<legend>Thông tin cá nhân</legend>
+					<table id="bang" cellspacing="10">
+						<tr>
+							<td>Họ và tên</td>
+							<td><input type="text" size="30"></td>
+						</tr>
+						<tr>
+							<td>Email</td>
+							<td><input type="text" size="30"></td>
+						</tr>
+						<tr>
+							<td>Địa chỉ</td>
+							<td><input type="text" size="30"></td>
+						</tr>
+						<tr>
+							<td>Số điện thoại</td>
+							<td><input type="number" size="30"></td>
+						</tr>
+						<tr>
+							<td>Số người</td>
+							<td><input type="number" ></td>
+						</tr>
+						<tr>
+							<td>Ngày đi</td>
+							<td><input type="date" size="30"></td>
+						</tr>
+						<tr>
+							<td>Số CMND</td>
+							<td><input type="number" size="30"></td>
+						</tr>
+						<tr>
+							<td>Số passport</td>
+							<td><input type="number" size="30"></td>
+						</tr>	
+						<tr>
+							<td>Yêu cầu khác</td>
+							<td><textarea cols="30" rows="10"></textarea></td>
+						</tr>
+						<tr>
+							<td style="text-align: center;" colspan="2">Hình thức thanh toán</td>
+						</tr>
+						<tr>
+							<td><input type="radio" name="gt">Chuyển khoản ngân hàng</td>
+							<td><input type="radio" name="gt">Thanh toán qua văn 
+							phòng công ty</td>
+						</tr>
+						<tr>
+							<td>Tổng chi phí tour</td>
+							<td><font style="color: red;">650.000</font></td>
+						</tr>
+						<tr>
+							<td colspan="2" style="text-align: center;"><button type="button">Đặt Tuor</button></td>
+						</tr>
+				</table>
+			</fieldset>
+		</form>
+	</div>
+                                       	   	  </div>
+                                       	   	  <div class="modal-footer">
+                                       	   	  	
+                                       	   	  </div>
+                                       	   </div>
+                                       </div>
+                                      
+
+									</div>
+									
+								</div>
+							</td>
+						</tr>
+						<tr>
+							<td><img src="img/hoguom.jpg" width="200px" height="200px"></td>
+							<td valign="top" align="left" width="650px"><p style="color: blue">Tour Du Lịch Hà Nội 1 ngày giá rẻ</p><br><br>
+<p >Lịch trình: Hà Nội - Văn Miếu - Lăng Bác - Nhà tù Hỏa Lò - Hồ Hoàn Kiếm</p><br><br>
+<p>Thủ đô Hà Nội - nơi hội tụ văn hóa, kết tinh những giá trị truyền thống của dân tộc- có quá trình hình thành lịch sử lâu dài, nhiều...</p>
+<p style="float: right;"><a href="">...Xem Thêm</a></p></td>
+							<td>
+								<div class="form-order">
+									<span>Giá Từ</span><br>
+									<strong>450.000</strong><br>
+									<button type="button" class="btn" onclick="showForm()">Đặt tour</button>
+								</td>
+						</tr>
+           			</table>
+           		</div>
+           </div>
+	</div>
+   <script>
+	var modal = document.getElementsByClassName("modal")[0];
+    var btn = document.getElementsByClassName("btn");
+    var close = document.getElementsByClassName("close");
+
+    function showForm(){
+    	modal.style.display = "block";
+    }
+
+    function closeForm(){
+    	modal.style.display = "none";
+    }
+    window.onclick = function(event) {
+        if (event.target == modal) {
+            modal.style.display = "none";
+        }
+    }
+    // btn.onclick = function(){
+    // 	 modal[0].style.display = "block";
+    // }
+ 
+    // close  [0].onclick = function(){
+    // 	modal[0].style.display = 'none';
+    // }
+</script>
+</body>
+
+</html>

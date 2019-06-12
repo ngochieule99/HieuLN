@@ -1,0 +1,198 @@
+
+*{margin: 0px; padding: 0px;box-sizing: border-box;font-family: tahoma; word-break: break-word;}
+ul li{list-style-type: none;}
+a{text-decoration: none;}
+.clear{clear: both;}
+
+.total{
+	width: 1350px;
+	margin: 0px auto;
+	text-align: center;
+}
+/*logo*/
+.logo{
+	width: 1350px;
+	height: 150px;
+	float: left;
+}
+.logo>img{
+	float: left;
+}
+/*menu*/
+.menu{
+	height: 40px;
+	width: 1350px;
+}
+.menu:hover{
+	cursor: pointer;
+	color: black;
+}
+.menu>ul>li{
+    display: inline-block;
+    padding: 20px;
+    font-size: 18px;
+    font-weight: bold;
+    margin-top: 0px;
+    float: right;
+    width: 157px;
+    height: 70px;
+    background-color: gray;
+}
+.menu>ul>li a{
+	color: #FFF;
+}
+.sub-menu{
+	display: none;
+	position: absolute;
+	top: 70px;
+	right: 0px;
+}
+.sub-menu>li:hover{
+	background: #dee47d;
+}
+.sub-menu1{
+	display: none;
+	position: absolute;
+	left: 157px;
+	top: 0px;
+}
+.sub-menu1>li:hover{
+	background: #dee47d;
+}
+.menu>ul>li:hover{
+	position: relative;
+	background: #dee47d;
+	color: black;
+}
+.menu>ul>li:hover>.sub-menu{
+	display: block;
+	width: 100%;
+	text-align: center;
+	background: #60f0a7;
+}
+.sub-menu>li:hover>.sub-menu1{
+	display: block;
+	width: 100%;
+	text-align: center;
+	background: #60f0a7;
+}
+.sub-menu>li{
+	padding: 7px;
+}
+.sub-menu1>li{
+	padding: 7px;
+}
+
+.sub-menu>li:hover>.sub-menu2{
+	display: block;
+	width: 100%;
+	text-align: center;
+	background:#60f0a7;
+}
+.sub-menu1>li:hover{
+	background:#dee47d;
+}
+.banner {
+	height: 400px;
+	width: 1350px;
+	float: left;
+}
+/*Noi dungn*/
+#noidung{
+	width: 1000px;
+	min-height: 800px;
+	margin-left: 180px;
+	float: left;
+}
+#anh img {
+	float: left;
+	width: 600px;
+	height: 400px;
+}
+.form-order {
+	margin-left: 30px
+}
+#tour1 {
+	min-height: 70px;
+	font-size: 15px;
+	background-color: #ece8e8;
+	text-align: left;
+	padding: 30px 45px;
+}
+h1 {
+	background-color: #3399FF;
+}
+/*
+.form-order span {
+	font-size: 14px;
+    line-height: 20px;
+    display: block;
+}
+.form-order {
+    background-color: #FF9933;
+    width: 135px;
+    height: 98px;
+    text-align: center;
+    padding-top: 25px;
+    margin-right: 10px;
+    float: right;
+    margin-left: 12px;
+ }
+.form-order strong {
+    color: #930000;
+    font-weight: 700;
+    padding-bottom: 5px;
+    display: block;
+    margin-top: -11px;
+}
+.form-order button {
+    background: #f5ae4e;
+    border: none;
+    white-space: nowrap;
+    padding: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+    border-radius: 5px;
+    font-size: 12px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+script {
+    display: none;
+}
+*/
+.modal{
+	height: 100%;
+	width: 100%;
+	background: rgba(0,0,0,0.4);
+	position: fixed;
+	top: -100px;
+	left: 0;
+    display: none;
+}
+.modal-content{
+	width: 80%;
+	margin: 10% auto;
+	background: #fafafa;
+	box-shadow: 0 4px 8px #000;
+	
+
+}
+.modal-content span{
+    float: right;
+    padding: 5px;
+    cursor: pointer;
+
+}
+.modal-content span:hover{
+	color: #fff;
+	font-weight: bold;
+}
+#total {
+	margin: auto;
+	width: 500px;
+}
+#bang td {
+	vertical-align: top;
+}
